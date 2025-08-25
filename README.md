@@ -1,5 +1,5 @@
-# 👋 Hello World!
-I'm a passionate Web and Mobile Developer with a focus on front-end programming, blending design and logic.  
+# 👋 Hey There!
+I'm a passionate Web Developer with a focus on front-end programming, blending design and logic.  
 Currently exploring AI, Python, and Deep Learning to create intelligent projects.
 
 ---
@@ -13,9 +13,5 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 
 ### Frameworks  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-### Mobile  
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
