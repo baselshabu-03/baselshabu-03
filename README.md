@@ -25,3 +25,9 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
+##  My GitHub Stats
+[![Basel's GitHub stats](https://github-readme-stats.vercel.app/api?username=baselshabu-03&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=baselshabu-03&theme=dark&background=000000)](https://git.io/streak-stats)
