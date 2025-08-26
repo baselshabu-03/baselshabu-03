@@ -1,5 +1,5 @@
 <div align="center">
-# Basel Shabu Pulichottil
+<h1> Basel Shabu Pulichottil</h1>
 
 **Tech Enthusiast | Aspiring IT Professional | Python, AI, & Web Development | Django | Flask 🚀**
 
