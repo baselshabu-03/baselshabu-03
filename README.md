@@ -1,4 +1,7 @@
+<div align="center">
 # Basel Shabu Pulichottil
+
+**Tech Enthusiast | Aspiring IT Professional | Python, AI, & Web Development | Django | Flask 🚀**
 
 # 👋 Hey There!
 I'm a passionate Web Developer with a focus on front-end programming, blending design and logic.  
