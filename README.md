@@ -42,7 +42,7 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ### UI/UX
-[![Canva Creator](https://img.shields.io/badge/Canva-Creator-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
+[![Canva](https://img.shields.io/badge/Designed%20with-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
 
 ##  My GitHub Stats
 [![GitHub Stats](https://img.shields.io/badge/GitHub_Stats-100000?style=for-the-badge&logo=github&logoColor=white)](https://github-readme-stats.vercel.app/api?username=baselshabu-03&show_icons=true&theme=radical)
