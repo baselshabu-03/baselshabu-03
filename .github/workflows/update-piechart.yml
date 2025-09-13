@@ -1,0 +1,36 @@
+ name: Update Pie Chart
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Runs every Monday
+  workflow_dispatch:      # Allows manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch language stats
+        run: |
+          curl -s "https://api.github.com/users/YOUR_USERNAME/repos?per_page=100" \
+          | jq '[.[] | .languages_url]' \
+          | xargs -n1 curl -s \
+          | jq -s 'add | to_entries | sort_by(-.value) | .[:5]' \
+          > languages.json
+
+      - name: Generate QuickChart URL
+        run: |
+          LABELS=$(jq -r '.[].key' languages.json | jq -s -R -c 'split("\n")[:-1]')
+          DATA=$(jq -r '.[].value' languages.json | jq -s -c)
+          URL="https://quickchart.io/chart?bkg=rgba(0,247,255,0.2)&c={type:'pie',data:{labels:$LABELS,datasets:[{data:$DATA}]},options:{plugins:{legend:{labels:{color:'white'}}}}}"
+          echo "![Top Languages]($URL)" > README_PIECHART.md
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README_PIECHART.md
+          git commit -m "Update pie chart"
+          git push
