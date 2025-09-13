@@ -54,5 +54,7 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 [![Top Languages](https://img.shields.io/badge/Top_Languages-100000?style=for-the-badge&logo=code&logoColor=white)](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=compact&theme=vision-friendly-dark)
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=pie&langs_count=9)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=pie&langs_count=9&bg_color=00000000)
+
 
 
