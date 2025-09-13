@@ -52,3 +52,6 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 [![GitHub Stats](https://img.shields.io/badge/GitHub_Stats-100000?style=for-the-badge&logo=github&logoColor=white)](https://github-readme-stats.vercel.app/api?username=baselshabu-03&show_icons=true&theme=radical)
 [![GitHub Streak](https://img.shields.io/badge/GitHub_Streak-100000?style=for-the-badge&logo=github&logoColor=white)](https://github-readme-streak-stats.herokuapp.com?user=baselshabu-03&theme=dark&background=000000)
 [![Top Languages](https://img.shields.io/badge/Top_Languages-100000?style=for-the-badge&logo=code&logoColor=white)](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=compact&theme=vision-friendly-dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=pie)
+
