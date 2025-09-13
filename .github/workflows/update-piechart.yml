@@ -1,4 +1,4 @@
- name: Update Pie Chart
+name: Update Pie Chart
 
 on:
   schedule:
@@ -24,13 +24,17 @@ jobs:
         run: |
           LABELS=$(jq -r '.[].key' languages.json | jq -s -R -c 'split("\n")[:-1]')
           DATA=$(jq -r '.[].value' languages.json | jq -s -c)
-          URL="https://quickchart.io/chart?bkg=rgba(0,247,255,0.2)&c={type:'pie',data:{labels:$LABELS,datasets:[{data:$DATA}]},options:{plugins:{legend:{labels:{color:'white'}}}}}"
-          echo "![Top Languages]($URL)" > README_PIECHART.md
+          URL="https://quickchart.io/chart?bkg=rgba(0,247,255,0.2)&c={type:'pie',data:{labels:$LABELS,datasets:[{data:$DATA}]},options:{plugins:{legend:{labels:{color:\"white\"}}]}}}"
+          echo $URL > piechart_url.txt
+
+      - name: Replace in README
+        run: |
+          sed -i '/<!--PIECHART_START-->/, /<!--PIECHART_END-->/c\<!--PIECHART_START-->\n![Top Languages]('"$(cat piechart_url.txt)"')\n<!--PIECHART_END-->' README.md
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add README_PIECHART.md
-          git commit -m "Update pie chart"
+          git add README.md
+          git commit -m "Update pie chart" || echo "No changes to commit"
           git push
