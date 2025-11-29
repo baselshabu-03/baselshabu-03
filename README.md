@@ -46,6 +46,3 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 
 ### UI/UX
 [![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=pie)
-
