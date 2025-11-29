@@ -21,7 +21,6 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=for-the-badge&logo=jinja&logoColor=white)
 
 ### Frameworks  
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Pyramid](https://img.shields.io/badge/Pyramid-000000?style=for-the-badge&logo=pyramid&logoColor=white)
