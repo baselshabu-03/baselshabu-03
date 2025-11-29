@@ -48,11 +48,14 @@ Currently exploring AI, Python, and Deep Learning to create intelligent projects
 ### UI/UX
 [![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)](https://www.canva.com/)
 
-##  My GitHub Stats
-[![GitHub Stats](https://img.shields.io/badge/GitHub_Stats-100000?style=for-the-badge&logo=github&logoColor=white)](https://github-readme-stats.vercel.app/api?username=baselshabu-03&show_icons=true&theme=radical)
-[![GitHub Streak](https://img.shields.io/badge/GitHub_Streak-100000?style=for-the-badge&logo=github&logoColor=white)](https://github-readme-streak-stats.herokuapp.com?user=baselshabu-03&theme=dark&background=000000)
+## My GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=baselshabu-03&show_icons=true&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=baselshabu-03&theme=dark&background=000000)
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=baselshabu-03&layout=pie&langs_count=9&bg_color=00000000)
+
 
 
 
